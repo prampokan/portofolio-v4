@@ -8,7 +8,6 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
   { href: "/blog", label: "Blog" },
 ];
@@ -36,11 +35,7 @@ export default function Navbar() {
           </ul>
           <ThemeToggler />
         </div>
-        <Button
-          size="icon"
-          variant="ghost"
-          className="flex sm:hidden justify-center items-center"
-        >
+        <Button size="icon" variant="ghost" className="flex sm:hidden">
           <Menu />
         </Button>
       </div>

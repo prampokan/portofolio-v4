@@ -11,13 +11,19 @@ export default function Experience() {
       </h1>
       <p className="mt-5 leading-loose font-[family-name:var(--font-geist-mono)] text-muted-foreground">
         I have several experiences in the field of software engineering, such as
-        part-time job as a software engineer, independent studies, and
-        internships.
+        full-time and part-time job as a software engineer, independent studies,
+        and internships.
       </p>
       <div className="mt-7">
-        <Accordion />
-        <Accordion />
-        <Accordion />
+        {DATA.experiences.map((item, i) => (
+          <Accordion
+            key={i}
+            image={item.logo}
+            position={item.position}
+            name={item.name}
+            description={item.description}
+          />
+        ))}
       </div>
     </div>
   );

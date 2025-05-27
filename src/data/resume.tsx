@@ -34,7 +34,16 @@ export const DATA = {
     "I have several experiences in the field of software engineering, such as part-time job as a software engineer, independent studies, and internships.",
   experiences: [
     {
+      name: "Anihost",
+      position: "Frontend Web Developer",
+      logo: "/images/anihost.jpg",
+      description:
+        "I worked as a Full Time Frontend Developer at PT Awan Network Indonesia. I handled three projects: a ticketing platform for failed purchases, an E-Office attendance system, and a SaaS for game top-up templates. All projects were built using Next.js and modern libraries.",
+      href: "https://karyasuperdev.com/",
+    },
+    {
       name: "Karya Super Dev",
+      position: "Software Engineer & Product Engineer",
       logo: "/images/karyasuperdev.png",
       description:
         "Karya Super Dev is an IT consulting company that provides a wide range of IT services. I work here as a Software Engineer, handling various client requests. Additionally, I serve as a Product Engineer for the Go Bisnis Digital division, which is one of Karya Super Dev's products.",
@@ -42,12 +51,14 @@ export const DATA = {
     },
     {
       name: "Oddin",
+      position: "Fullstack Web Developer",
       logo: "/images/oddin.jpg",
       description:
         "Oddin is a software house founded by my partner and me to accommodate various client requests, ranging from landing page websites to complex information system websites. We have already built a portfolio with several reputable clients.",
     },
     {
       name: "Fn Digital Code",
+      position: "Frontend Developer",
       logo: "/images/fn.webp",
       description:
         "I work here as a front end website developer. Collaborate with a very competent team to create a game top up website, using technology such as javascript, typescript, next js, and react js. Working together using Jira and Github.",
@@ -55,6 +66,7 @@ export const DATA = {
     },
     {
       name: "Bangkit Academy",
+      position: "Cloud Computing",
       logo: "/images/bangkit.png",
       description:
         "I’m joining Bangkit Academy by Kampus Merdeka MSIB Batch 6. Here I learn anything about cloud computing using Google Cloud Platform and back-end developing. And we were assigned to work on a capstone project in collaboration with Machine Learning learning path and Mobile Development learning path.",
@@ -62,6 +74,7 @@ export const DATA = {
     },
     {
       name: "Desnet Technology",
+      position: "Fullstack Web Developer",
       logo: "/images/desnet.webp",
       description:
         "Designed and developed a web application using CodeIgniter 4 to manage items and mails within PT DES Teknologi Informasi.",

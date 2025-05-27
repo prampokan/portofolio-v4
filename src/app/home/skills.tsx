@@ -20,7 +20,7 @@ export default function Skills() {
       speed: 0.7,
     },
     autoWidth: true,
-    gap: "2px",
+    gap: "16px",
     breakpoints: {
       768: {
         fixedWidth: "100px",
@@ -43,7 +43,7 @@ export default function Skills() {
         <Splide options={splideOptions} extensions={{ AutoScroll }}>
           {DATA.tech.map((item, i) => (
             <SplideSlide key={i}>
-              <div className="max-w-none flex justify-center items-center gap-x-2 mx-2 cursor-pointer border-2 border-dashed px-4 py-1.5 rounded-lg bg-card hover:bg-secondary transition-all">
+              <div className="max-w-none flex justify-center items-center gap-x-2 cursor-default border-2 border-dashed px-4 py-1.5 rounded-lg bg-card hover:bg-secondary transition-all">
                 <Image
                   src={item.logo || "/vercel.svg"}
                   alt="logo"
@@ -56,8 +56,8 @@ export default function Skills() {
             </SplideSlide>
           ))}
         </Splide>
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/5 bg-gradient-to-r from-white dark:from-background"></div>
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/5 bg-gradient-to-l from-white dark:from-background"></div>
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/5 bg-gradient-to-r from-background"></div>
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/5 bg-gradient-to-l from-background"></div>
       </div>
     </div>
   );

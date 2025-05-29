@@ -40,6 +40,7 @@ export const DATA = {
       description:
         "I worked as a Full Time Frontend Developer at PT Awan Network Indonesia. I handled three projects: a ticketing platform for failed purchases, an E-Office attendance system, and a SaaS for game top-up templates. All projects were built using Next.js and modern libraries.",
       href: "https://karyasuperdev.com/",
+      period: "Feb 2025 - Present",
     },
     {
       name: "Karya Super Dev",
@@ -48,6 +49,7 @@ export const DATA = {
       description:
         "Karya Super Dev is an IT consulting company that provides a wide range of IT services. I work here as a Software Engineer, handling various client requests. Additionally, I serve as a Product Engineer for the Go Bisnis Digital division, which is one of Karya Super Dev's products.",
       href: "https://karyasuperdev.com/",
+      period: "Agu 2024 - Present",
     },
     {
       name: "Oddin",
@@ -55,6 +57,7 @@ export const DATA = {
       logo: "/images/oddin.jpg",
       description:
         "Oddin is a software house founded by my partner and me to accommodate various client requests, ranging from landing page websites to complex information system websites. We have already built a portfolio with several reputable clients.",
+      period: "Agu 2024 - Present",
     },
     {
       name: "Fn Digital Code",
@@ -63,6 +66,7 @@ export const DATA = {
       description:
         "I work here as a front end website developer. Collaborate with a very competent team to create a game top up website, using technology such as javascript, typescript, next js, and react js. Working together using Jira and Github.",
       href: "https://fndigitalcode.id/",
+      period: "Feb 2024 - July 2024",
     },
     {
       name: "Bangkit Academy",
@@ -71,6 +75,7 @@ export const DATA = {
       description:
         "I’m joining Bangkit Academy by Kampus Merdeka MSIB Batch 6. Here I learn anything about cloud computing using Google Cloud Platform and back-end developing. And we were assigned to work on a capstone project in collaboration with Machine Learning learning path and Mobile Development learning path.",
       href: "https://grow.google/intl/id_id/bangkit/?tab=machine-learning",
+      period: "Feb 2024 - June 2024",
     },
     {
       name: "Desnet Technology",
@@ -79,7 +84,16 @@ export const DATA = {
       description:
         "Designed and developed a web application using CodeIgniter 4 to manage items and mails within PT DES Teknologi Informasi.",
       href: "https://desnet.id/",
+      period: "June 2023 - Sep 2023",
     },
+  ],
+  education: [
+    "/images/college2.jpg",
+    "/images/college3.jpg",
+    "/images/college9.jpg",
+    "/images/college5.jpg",
+    "/images/college7.jpg",
+    "/images/college8.jpg",
   ],
   project:
     "I work on a variety of projects, from building my own products and handling client requests to experimenting with fun, side projects.",
@@ -87,7 +101,7 @@ export const DATA = {
     {
       title: "IoT Website",
       description: "Monitoring system for PLTMH",
-      image: "/pltmh2.png",
+      image: "/images/pltmh2.png",
       tech: [
         "Next.js",
         "Typescript",
@@ -103,7 +117,7 @@ export const DATA = {
     {
       title: "CV Maker Indo",
       description: "Built your CV with just few clicks",
-      image: "/cvmaker.png",
+      image: "/images/cvmaker.png",
       tech: ["Next.js", "Typescript", "Tailwind", "ShadCn", "Firebase"],
       website: "https://cvmakerindo.vercel.app/",
       github: "https://github.com/prampokan/cv-maker",
@@ -111,14 +125,14 @@ export const DATA = {
     {
       title: "AdoNuxt Blog",
       description: "Blog website about programming, etc",
-      image: "/adonuxt.png",
+      image: "/images/adonuxt.png",
       tech: ["Nuxt.js", "Typescript", "Tailwind", "Adonis.js"],
       github: "https://github.com/prampokan/adonuxt-blog",
     },
     {
       title: "Bangkit Capstone Project",
       description: "Meatopia, Meat sales app with machine learning",
-      image: "/meatopia.png",
+      image: "/images/meatopia.png",
       tech: ["Kotlin", "Express.js", "Tensor Flow", "Google Colab", "GCP"],
       website: "https://meatopia.vercel.app/",
       github: "https://github.com/Meatopia-Capstone-Team-C241-PS192",
@@ -126,14 +140,14 @@ export const DATA = {
     {
       title: "AdoNuxt Blog API",
       description: "The backend of AdoNuxt blog",
-      image: "/adonuxt-api.png",
+      image: "/images/adonuxt-api.png",
       tech: ["Adonis.js", "Lucid ORM", "MySql"],
       github: "https://github.com/prampokan/adonuxt-api",
     },
     {
       title: "PokeNuxt",
       description: "Pokemon lists website using Poke Api",
-      image: "/pokenuxt.png",
+      image: "/images/pokenuxt.png",
       tech: ["Nuxt.js", "Typescript", "Tailwind", "Poke Api"],
       website: "https://pokenuxt-blond.vercel.app/",
       github: "https://github.com/prampokan/pokemon-nuxt",
@@ -141,7 +155,7 @@ export const DATA = {
     {
       title: "Fashion Online Shop",
       description: "Sass Website to sell your fashion products",
-      image: "/tokoonline.png",
+      image: "/images/tokoonline.png",
       tech: ["Next.js", "Javascript", "Tailwind", "Firebase"],
       website: "https://pramolshop.vercel.app/shop",
       github: "https://github.com/prampokan/toko-online-next",
@@ -149,7 +163,7 @@ export const DATA = {
     {
       title: "Website KKN",
       description: "Desa Turus, Kecamatan Polanharjo, Klaten",
-      image: "/kkn.png",
+      image: "/images/kkn.png",
       tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
       website: "https://www.desaturus.com/",
       github: "https://github.com/prampokan/website-kkn",
@@ -157,14 +171,14 @@ export const DATA = {
     {
       title: "Karya Super Dev's Landing Page",
       description: "Landing page website for Karya Super Dev",
-      image: "/ksd.png",
+      image: "/images/ksd.png",
       tech: ["Next.js", "Javascript", "Tailwind"],
       website: "https://karyasuperdev.com/",
     },
     {
       title: "Github Roasting",
       description: "Input your github username",
-      image: "/githubroasting.png",
+      image: "/images/githubroasting.png",
       tech: ["Next.js", "Javascript", "Tailwind", "Gemini"],
       website: "https://githubahahah.vercel.app/",
       github: "https://github.com/prampokan/roasting-github",
@@ -172,19 +186,19 @@ export const DATA = {
     {
       title: "Kasservice",
       description: "Information system website for Kasservice",
-      image: "/kasservice.png",
+      image: "/images/kasservice.png",
       tech: ["Next.js", "Typescript", "Tailwind", "ShadCn", "Supabase"],
     },
     {
       title: "Population Data Management",
       description: "A population data management system for village",
-      image: "/wangen.png",
+      image: "/images/wangen.png",
       tech: ["Next.js", "Javascript", "Tailwind", "Firebase"],
     },
     {
       title: "Dinoco",
       description: "Fancy car sales full-stack website",
-      image: "/dinoco.png",
+      image: "/images/dinoco.png",
       tech: ["React.js", "Javascript", "Express.js", "Tailwind"],
       website: "https://dinoco.vercel.app/",
       github: "https://github.com/prampokan/dinoco",
@@ -192,7 +206,7 @@ export const DATA = {
     {
       title: "Cryptosans",
       description: "A Crypto currency monitoring website",
-      image: "/cryptosans.png",
+      image: "/images/cryptosans.png",
       tech: ["React.js", "Javascript", "Tailwind", "CoinGecko"],
       website: "https://cryptosans.vercel.app/",
       github: "https://github.com/prampokan/cryptosans",
@@ -200,14 +214,14 @@ export const DATA = {
     {
       title: "Spotify Clone",
       description: "A Spotify clone app that actually plays music",
-      image: "/spoticlone.png",
+      image: "/images/spoticlone.png",
       tech: ["React Native", "Expo", "Shazam API"],
       github: "https://github.com/prampokan/spotify-clone",
     },
     {
       title: "Portofolio V3",
       description: "Pramudya Diagusta's V3 portofolio website",
-      image: "/portov3.png",
+      image: "/images/portov3.png",
       tech: ["React.js", "Tailwind", "Framer Motion"],
       website: "https://pramudya-diagusta.vercel.app/",
       github: "https://github.com/prampokan/pramudya-diagusta",

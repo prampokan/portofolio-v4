@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col-reverse sm:flex-row justify-between items-center">
       <div className="relative text-center sm:text-left">
-        <h1 className="text-3xl sm:text-4xl font-jacquard mt-7 sm:mt-0">
+        <h1 className="text-3xl sm:text-4xl font-jacquard mt-7 sm:mt-0 font-bold">
           Sup, Prampokan's Here🤘
         </h1>
         <p className="text-lg mt-3 max-w-[30rem] font-[family-name:var(--font-geist-mono)] text-muted-foreground">

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { DATA } from "@/data/resume";
 
 export default function Education() {
   return (
@@ -44,62 +45,21 @@ export default function Education() {
         coordination.
       </p>
       <div className="columns-3 gap-4 mt-7">
-        <Image
-          src="/images/college1.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        />
-        <Image
-          src="/images/college2.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        />
-        <Image
-          src="/images/college3.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        />
-        {/* <Image
-          src="/images/college4.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        /> */}
-        <Image
-          src="/images/college5.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        />
-        {/* <Image
-          src="/images/college6.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        /> */}
-        <Image
-          src="/images/college7.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        />
-        <Image
-          src="/images/college8.jpg"
-          alt="a"
-          width={500}
-          height={500}
-          className="rounded-xl size-full object-contain mb-4"
-        />
+        {DATA.education.map((item, i) => (
+          <Image
+            key={i}
+            src={item}
+            alt="a"
+            width={1000}
+            height={1000}
+            className="rounded-xl size-full object-contain mb-4"
+          />
+        ))}
+      </div>
+      <div className="mt-20 flex flex-col items-center">
+        <h1 className="font-semibold tracking-tight font-[family-name:var(--font-geist-mono)]">
+          I wanna tell you something about my final project😃
+        </h1>
       </div>
     </div>
   );

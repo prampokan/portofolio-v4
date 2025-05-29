@@ -40,7 +40,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          {children}
+          <main className="w-full flex justify-center py-24 px-5">
+            <div className="w-full max-w-3xl">{children}</div>
+          </main>
           <Footer />
         </ThemeProvider>
       </body>

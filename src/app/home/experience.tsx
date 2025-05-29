@@ -22,6 +22,7 @@ export default function Experience() {
             position={item.position}
             name={item.name}
             description={item.description}
+            period={item.period}
           />
         ))}
       </div>

@@ -11,7 +11,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Education />
-      <Chat />
+      {/* <Chat /> */}
     </>
   );
 }

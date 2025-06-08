@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Accordion({
   image,
@@ -10,6 +11,7 @@ export default function Accordion({
   position,
   description,
   period,
+  href,
 }: any) {
   const [open, setOpen] = useState(false);
   const contentRef = useRef<HTMLParagraphElement | null>(null);
@@ -53,15 +55,22 @@ export default function Accordion({
             <p className="text-sm text-muted-foreground">{position}</p>
           </div>
         </div>
-        <p className="text-sm text-muted-foreground font-medium">{period}</p>
+        <p className="text-sm text-muted-foreground">{period}</p>
       </div>
-      <p
+      <div
         ref={contentRef}
         style={{ maxHeight: height }}
-        className="overflow-hidden transition-all duration-500 leading-relaxed font-medium ml-16 mt-1 text-sm"
+        className="overflow-hidden transition-all duration-500 leading-relaxed ml-16 mt-1 text-sm"
       >
         {description}
-      </p>
+        {href && (
+          <p className="mt-3 text-sky-500 hover:underline">
+            <Link href={href} target="_blank">
+              {href}
+            </Link>
+          </p>
+        )}
+      </div>
     </div>
   );
 }

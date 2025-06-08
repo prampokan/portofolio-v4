@@ -23,6 +23,7 @@ export default function Experience() {
             name={item.name}
             description={item.description}
             period={item.period}
+            href={item.href}
           />
         ))}
       </div>

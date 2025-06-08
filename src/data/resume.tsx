@@ -39,7 +39,7 @@ export const DATA = {
       logo: "/images/anihost.jpg",
       description:
         "I worked as a Full Time Frontend Developer at PT Awan Network Indonesia. I handled three projects: a ticketing platform for failed purchases, an E-Office attendance system, and a SaaS for game top-up templates. All projects were built using Next.js and modern libraries.",
-      href: "https://karyasuperdev.com/",
+      href: "https://www.anihost.com/id",
       period: "Feb 2025 - Present",
     },
     {
@@ -94,6 +94,17 @@ export const DATA = {
     "/images/college5.jpg",
     "/images/college7.jpg",
     "/images/college8.jpg",
+  ],
+  educations: [
+    {
+      name: "Diponegoro University",
+      position: "Computer Engineering / GPA : 3.53",
+      logo: "/images/undip.png",
+      description:
+        "I am a recent graduate in Computer Engineering from Universitas Diponegoro, with a final GPA of 3.53. Throughout my academic journey, I actively engaged in various student organizations, including the Computer Engineering Research Club, a community focused on programming and technical development within the department. I also took part in multiple campus activities and committees, such as serving as a student orientation facilitator, contributing to leadership and event coordination.",
+      href: "https://undip.ac.id/",
+      period: "2021 - 2025",
+    },
   ],
   project:
     "I work on a variety of projects, from building my own products and handling client requests to experimenting with fun, side projects.",

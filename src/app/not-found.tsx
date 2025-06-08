@@ -1,7 +1,7 @@
 export default function NotFound() {
   return (
-    <div>
+    <main className="min-h-screen">
       <h1>GGADA</h1>
-    </div>
+    </main>
   );
 }

@@ -1,6 +1,8 @@
 import { Button } from "./ui/button";
 import { Github, Mail, Linkedin } from "lucide-react";
 import Wave from "./ui/wave";
+import Cal from "./embed/cal";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -15,19 +17,30 @@ export default function Footer() {
       </p>
       <div className="mt-5">
         <div className="flex gap-x-2 border-b-2 border-dashed pb-5">
-          <Button variant="outline">Make an Appointment💻</Button>
-          <Button variant="outline">Say hi👋</Button>
+          <Cal />
+          <Link href="/chat">
+            <Button variant="outline">Say hi👋</Button>
+          </Link>
         </div>
         <div className="flex gap-x-3 mt-5 justify-center">
-          <Button size="icon" className="rounded-full" variant="ghost">
-            <Mail />
-          </Button>
-          <Button size="icon" className="rounded-full" variant="ghost">
-            <Linkedin />
-          </Button>
-          <Button size="icon" className="rounded-full" variant="ghost">
-            <Github />
-          </Button>
+          <Link href="mailto:prampokan@gmail.com">
+            <Button size="icon" className="rounded-full" variant="ghost">
+              <Mail />
+            </Button>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/pramudya-diagusta/"
+            target="_blank"
+          >
+            <Button size="icon" className="rounded-full" variant="ghost">
+              <Linkedin />
+            </Button>
+          </Link>
+          <Link href="https://github.com/prampokan" target="_blank">
+            <Button size="icon" className="rounded-full" variant="ghost">
+              <Github />
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

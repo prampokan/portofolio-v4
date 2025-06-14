@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
 import { Jacquard_12 } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
+import NavbarMobile from "@/components/navbar-mobile";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,6 +47,7 @@ export default function RootLayout({
           </main>
           <Toaster />
           <Footer />
+          <NavbarMobile />
         </ThemeProvider>
       </body>
     </html>

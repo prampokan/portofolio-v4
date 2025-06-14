@@ -30,10 +30,10 @@ export default function Accordion({
     <div className="mb-5 pb-3 border-b-2 border-dashed">
       <div
         onClick={() => setOpen(!open)}
-        className="flex items-start justify-between cursor-pointer group"
+        className="flex flex-col sm:flex-row items-start justify-between cursor-pointer group"
       >
         <div className="flex items-center gap-x-4">
-          <div className="w-12 h-12 rounded-full overflow-hidden bg-secondary border">
+          <div className="w-12 h-12 rounded-full overflow-hidden bg-secondary border shrink-0">
             <Image
               src={image}
               alt="karya"
@@ -55,7 +55,9 @@ export default function Accordion({
             <p className="text-sm text-muted-foreground">{position}</p>
           </div>
         </div>
-        <p className="text-sm text-muted-foreground">{period}</p>
+        <p className="text-sm text-muted-foreground ml-16 mt-1 sm:mt-0 sm:ml-0">
+          {period}
+        </p>
       </div>
       <div
         ref={contentRef}

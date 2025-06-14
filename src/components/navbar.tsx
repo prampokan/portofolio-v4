@@ -15,13 +15,12 @@ const navLinks = [
 
 export default function Navbar() {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <nav className="w-full border-b h-14 flex justify-center items-center fixed bg-background/50 backdrop-blur px-5 z-50">
       <div className="w-full max-w-3xl flex justify-between items-center">
         <h1 className="font-semibold cursor-pointer">pr4mpokan</h1>
-        <div className="hidden sm:flex gap-x-5">
-          <ul className="flex items-center gap-x-8 font-medium text-sm font-[family-name:var(--font-geist-mono)]">
+        <div className="flex gap-x-5">
+          <ul className="hidden sm:flex items-center gap-x-8 font-medium text-sm font-[family-name:var(--font-geist-mono)]">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -36,9 +35,6 @@ export default function Navbar() {
           </ul>
           <ThemeToggler />
         </div>
-        <Button size="icon" variant="ghost" className="flex sm:hidden">
-          <Menu />
-        </Button>
       </div>
     </nav>
   );

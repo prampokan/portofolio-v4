@@ -1,4 +1,13 @@
 import Image from "next/image";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 export default function Hero() {
   return (
@@ -49,16 +58,43 @@ export default function Hero() {
           </p>
         </div>
       </div>
-      {/* rounded-[60%_40%_30%_70%/60%_30%_70%_40%] */}
-      <div className="w-40 h-40 overflow-hidden rounded-full bg-secondary border-2 border-muted-secondary">
-        <Image
-          src="/images/face2.jpg"
-          alt="i"
-          width={500}
-          height={500}
-          className="w-full h-full object-cover object-center"
-        />
-      </div>
+
+      <Dialog>
+        <DialogTrigger>
+          <div className="w-40 h-40 overflow-hidden rounded-full bg-secondary border-2 border-muted-secondary cursor-pointer">
+            <Image
+              src="/images/face2.jpg"
+              alt="i"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
+        </DialogTrigger>
+        <DialogContent
+          showCloseButton={false}
+          className="p-0 rounded-full w-auto border-0"
+        >
+          <VisuallyHidden>
+            <DialogHeader>
+              <DialogTitle>Are you absolutely sure?</DialogTitle>
+              <DialogDescription>
+                This action cannot be undone. This will permanently delete your
+                account and remove your data from our servers.
+              </DialogDescription>
+            </DialogHeader>
+          </VisuallyHidden>
+          <div className="max-w-xl aspect-square overflow-hidden rounded-full bg-card">
+            <Image
+              src="/images/face2.jpg"
+              alt="i"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

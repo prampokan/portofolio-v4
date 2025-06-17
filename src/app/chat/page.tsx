@@ -141,11 +141,11 @@ export default function Page() {
           user ? "hidden" : "flex"
         } mt-5 gap-2 w-full grid grid-cols-2`}
       >
-        <Button variant="outline" onClick={SignInWithGoogle}>
+        <Button variant="outline" onClick={SignInWithGoogle} className="py-5">
           <Image src="/images/google.webp" alt="g" width={15} height={15} />
           Sign in with Google
         </Button>
-        <Button variant="outline" onClick={SignInWithGithub}>
+        <Button variant="outline" onClick={SignInWithGithub} className="py-5">
           <Github />
           Sign in with Github
         </Button>

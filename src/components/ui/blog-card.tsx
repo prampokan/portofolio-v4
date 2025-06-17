@@ -1,4 +1,4 @@
-import { Button } from "./button.tsx";
+import { Button } from "./button";
 import { MoveUpRight } from "lucide-react";
 
 export default function BlogCard() {

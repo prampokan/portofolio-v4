@@ -1,5 +1,5 @@
 import { BlurFade } from "@/components/magicui/blur-fade";
-import BlogCard from "@/components/ui/blog-card";
+// import BlogCard from "@/components/ui/blog-card";
 
 export default function Page() {
   return (

@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <BlurFade inView>
       <div className="flex flex-col items-center">
-        <h1 className="text-3xl sm:text-4xl font-jacquard font-bold mt-7 sm:mt-0 text-center">
+        <h1 className="text-xl font-[family-name:var(--font-geist-mono)] font-bold mt-7 sm:mt-0 text-center tracking-tighter">
           Recent Projects
         </h1>
         <p className="font-[family-name:var(--font-geist-mono)] text-center max-w-md mt-5 text-muted-foreground leading-relaxed">

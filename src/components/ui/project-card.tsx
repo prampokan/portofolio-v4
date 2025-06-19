@@ -13,7 +13,7 @@ export default function ProjectCard({
   github,
 }: any) {
   return (
-    <div className="cursor-pointer border border-white hover:border-zinc-200  dark:border-card dark:hover:border-zinc-700 p-4 rounded-sm bg-zinc-50 dark:bg-card group transition-all duration-300">
+    <div className="cursor-pointer h-full border border-white hover:border-zinc-200  dark:border-card dark:hover:border-zinc-700 p-4 rounded-sm bg-zinc-50 dark:bg-card group transition-all duration-300">
       <Image
         src={image}
         alt=""

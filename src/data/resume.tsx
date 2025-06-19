@@ -1,18 +1,4 @@
 export const DATA = {
-  name: "pramudya diagusta",
-  email: "prampokan@gmail.com",
-  about:
-    "a passionate software engineer who crafting dynamic and interactive applications.",
-  socials: [
-    {
-      name: "Linkedin",
-      href: "https://www.linkedin.com/in/pramudya-diagusta/",
-    },
-    { name: "Github", href: "https://github.com/prampokan" },
-    { name: "Email", href: "mailto:prampokan@gmail.com" },
-  ],
-  skills:
-    "I’m deeply in love with creating innovative, scalable, and efficient web applications. With years of experience in full-stack development, I specialize in building reliable solutions using modern frameworks and technologies.",
   tech: [
     {
       name: "Javascript",
@@ -30,8 +16,6 @@ export const DATA = {
     { name: "Supabase", logo: "/images/supabase.png" },
     { name: "MySql", logo: "/images/mysql.png" },
   ],
-  experience:
-    "I have several experiences in the field of software engineering, such as part-time job as a software engineer, independent studies, and internships.",
   experiences: [
     {
       name: "Anihost",
@@ -87,14 +71,6 @@ export const DATA = {
       period: "June 2023 - Sep 2023",
     },
   ],
-  education: [
-    "/images/college2.jpg",
-    "/images/college3.jpg",
-    "/images/college9.jpg",
-    "/images/college5.jpg",
-    "/images/college7.jpg",
-    "/images/college8.jpg",
-  ],
   educations: [
     {
       name: "Diponegoro University",
@@ -106,8 +82,6 @@ export const DATA = {
       period: "2021 - 2025",
     },
   ],
-  project:
-    "I work on a variety of projects, from building my own products and handling client requests to experimenting with fun, side projects.",
   projects: [
     {
       title: "IoT Website",

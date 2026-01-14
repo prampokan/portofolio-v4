@@ -18,8 +18,8 @@ export const DATA = {
   ],
   experiences: [
     {
-      name: "Anihost",
-      position: "Frontend Web Developer",
+      name: "Tiga Teknologi",
+      position: "Fullstack Web Developer",
       logo: "/images/anihost.jpg",
       description:
         "I worked as a Full Time Frontend Developer at PT Awan Network Indonesia. I handled three projects: a ticketing platform for failed purchases, an E-Office attendance system, and a SaaS for game top-up templates. All projects were built using Next.js and modern libraries.",

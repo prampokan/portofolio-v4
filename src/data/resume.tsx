@@ -84,6 +84,19 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "PPOB Saas",
+      description: "SaaS for game top-up templates",
+      image: "/images/ppob.png",
+      tech: [
+        "Next.js",
+        "Typescript",
+        "Tailwind",
+        "ShadCn",
+        "Laravel",
+        "Inertia",
+      ],
+    },
+    {
       title: "IoT Website",
       description: "Monitoring system for PLTMH",
       image: "/images/pltmh2.png",

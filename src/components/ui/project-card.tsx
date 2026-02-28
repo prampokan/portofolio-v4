@@ -19,7 +19,7 @@ export default function ProjectCard({
         alt=""
         width={500}
         height={500}
-        className="aspect-[16/8] object-cover rounded"
+        className="aspect-[16/8] object-cover object-top rounded"
       />
       <div className="mt-2">
         <h1 className="font-medium flex items-center gap-x-1 group-hover:text-sky-500 transition-all">

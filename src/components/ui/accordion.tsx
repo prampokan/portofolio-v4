@@ -66,7 +66,7 @@ export default function Accordion({
       >
         {description}
         {href && (
-          <p className="mt-3 text-sky-500 hover:underline">
+          <p className="mt-3 text-active hover:underline">
             <Link href={href} target="_blank">
               {href}
             </Link>

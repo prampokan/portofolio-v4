@@ -22,7 +22,7 @@ export const DATA = {
       position: "Fullstack Web Developer",
       logo: "/images/anihost.jpg",
       description:
-        "I worked as a Full Time Frontend Developer at PT Awan Network Indonesia. I handled three projects: a ticketing platform for failed purchases, an E-Office attendance system, and a SaaS for game top-up templates. All projects were built using Next.js and modern libraries.",
+        "I worked as a Full Time Frontend Developer at PT Awan Network Indonesia. I handled several projects: a ticketing platform for failed purchases, an E-Office attendance system, and a SaaS for game top-up templates. All projects were built using Next.js and modern libraries.",
       href: "https://www.anihost.com/id",
       period: "Feb 2025 - Present",
     },

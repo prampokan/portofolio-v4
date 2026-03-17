@@ -22,14 +22,14 @@ export default function ProjectCard({
         className="aspect-[16/8] object-cover object-top rounded"
       />
       <div className="mt-2">
-        <h1 className="font-medium flex items-center gap-x-1 group-hover:text-sky-500 transition-all">
+        <h1 className="font-medium flex items-center gap-x-1 group-hover:text-active transition-all">
           {name}
           <ArrowUpRight
             size="16"
             className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300"
           />
         </h1>
-        <p className="text-sm text-muted-foreground group-hover:text-sky-500 transition-all">
+        <p className="text-sm text-muted-foreground group-hover:text-active transition-all">
           {description}
         </p>
         <div className="mt-5">
@@ -45,7 +45,7 @@ export default function ProjectCard({
               <Link
                 href={website}
                 target="_blank"
-                className="flex items-center gap-x-1 hover:text-sky-500 transition-all text-sm"
+                className="flex items-center gap-x-1 hover:text-active transition-all text-sm"
               >
                 <Globe size="16" />
                 Website
@@ -55,7 +55,7 @@ export default function ProjectCard({
               <Link
                 href={github}
                 target="_blank"
-                className="flex items-center gap-x-1 hover:text-sky-500 transition-all text-sm"
+                className="flex items-center gap-x-1 hover:text-active transition-all text-sm"
               >
                 <Github size="16" />
                 Github

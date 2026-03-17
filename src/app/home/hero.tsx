@@ -61,7 +61,7 @@ export default function Hero() {
 
       <Dialog>
         <DialogTrigger>
-          <div className="w-40 h-40 overflow-hidden rounded-full bg-secondary border-2 border-muted-secondary cursor-pointer">
+          <div className="w-40 h-40 overflow-hidden rounded-[60%_40%_30%_70%/60%_30%_70%_40%] bg-secondary border-2 border-muted-secondary cursor-pointer">
             <Image
               src="/images/face2.jpg"
               alt="i"
@@ -84,7 +84,7 @@ export default function Hero() {
               </DialogDescription>
             </DialogHeader>
           </VisuallyHidden>
-          <div className="max-w-xl aspect-square overflow-hidden rounded-full bg-card">
+          <div className="max-w-xl aspect-square overflow-hidden bg-card">
             <Image
               src="/images/face2.jpg"
               alt="i"

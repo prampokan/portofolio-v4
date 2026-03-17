@@ -25,8 +25,8 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`transition-all hover:text-sky-500 hover:underline ${
-                  pathname === link.href ? "text-sky-500 underline" : ""
+                className={`transition-all hover:text-active hover:underline ${
+                  pathname === link.href ? "text-active underline" : ""
                 }`}
               >
                 {link.label}

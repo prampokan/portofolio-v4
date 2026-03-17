@@ -4,7 +4,7 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 export default function Page() {
   return (
     <BlurFade inView>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center min-h-screen">
         <h1 className="text-xl font-[family-name:var(--font-geist-mono)] font-bold mt-7 sm:mt-0 text-center tracking-tighter">
           Prampokan's Blog
         </h1>

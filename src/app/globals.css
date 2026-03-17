@@ -42,6 +42,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-active: var(--active);
   --animate-marquee: marquee var(--duration) infinite linear;
   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
   @keyframes marquee {
@@ -95,6 +96,7 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
+  --active: oklch(68.5% 0.169 237.323);
 }
 
 .dark {
@@ -129,6 +131,57 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.552 0.016 285.938);
+  --active: oklch(68.5% 0.169 237.323);
+}
+
+.blue {
+  --background: oklch(0.26 0.06 257); /* blue-950 */
+  --foreground: oklch(0.98 0.01 260); /* slate-50 */
+
+  --card: oklch(0.31 0.07 257); /* blue-900 */
+  --card-foreground: oklch(0.98 0.01 260);
+
+  --popover: oklch(0.31 0.07 257);
+  --popover-foreground: oklch(0.98 0.01 260);
+
+  --primary: oklch(0.71 0.16 255); /* blue-500 */
+  --primary-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.40 0.09 257); /* blue-800 */
+  --secondary-foreground: oklch(0.98 0.01 260);
+
+  --muted: oklch(0.40 0.09 257);
+  --muted-foreground: oklch(0.82 0.08 250); /* blue-300 */
+
+  --accent: oklch(0.66 0.15 252); /* blue-400 */
+  --accent-foreground: oklch(0.26 0.06 257);
+
+  --destructive: oklch(0.63 0.22 27); /* red-600 */
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: oklch(0.48 0.10 257); /* blue-700 */
+  --input: oklch(0.48 0.10 257);
+  --ring: oklch(0.71 0.16 255);
+
+  --chart-1: oklch(0.71 0.16 255); /* blue */
+  --chart-2: oklch(0.78 0.14 230); /* sky */
+  --chart-3: oklch(0.74 0.13 210); /* cyan */
+  --chart-4: oklch(0.76 0.15 280); /* indigo-ish */
+  --chart-5: oklch(0.45 0.12 250); /* deep blue */
+
+  --sidebar: oklch(0.29 0.07 257);
+  --sidebar-foreground: oklch(0.98 0.01 260);
+
+  --sidebar-primary: oklch(0.71 0.16 255);
+  --sidebar-primary-foreground: oklch(1 0 0);
+
+  --sidebar-accent: oklch(0.40 0.09 257);
+  --sidebar-accent-foreground: oklch(0.98 0.01 260);
+
+  --sidebar-border: oklch(0.48 0.10 257);
+  --sidebar-ring: oklch(0.71 0.16 255);
+
+  --active: oklch(0.72 0.15 220); /* sky-500 */
 }
 
 @layer base {

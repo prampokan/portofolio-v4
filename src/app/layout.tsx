@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import { Jacquard_12 } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import NavbarMobile from "@/components/navbar-mobile";
+import NextPage from "@/components/next-page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,13 +42,17 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"
+          themes={["light", "dark", "blue"]}
           enableSystem
           disableTransitionOnChange
         >
           <Navbar />
           <main className="w-full flex justify-center py-24 px-5 min-h-screen">
-            <div className="w-full max-w-3xl">{children}</div>
+            <div className="w-full max-w-3xl">
+              {children}
+              <NextPage />
+            </div>
           </main>
           <Toaster />
           <Footer />

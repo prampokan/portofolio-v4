@@ -102,7 +102,7 @@ export default function Page() {
     const now = new Date();
     const postDate = new Date(timestamp * 1000);
     const diffInSeconds = Math.floor(
-      (now.getTime() - postDate.getTime()) / 1000
+      (now.getTime() - postDate.getTime()) / 1000,
     );
 
     const units = [
@@ -184,7 +184,7 @@ export default function Page() {
                     } items-end`}
                   >
                     <div
-                      className={`max-w-72 py-2 px-4 bg-zinc-100 dark:bg-zinc-900 rounded-[20px] ${
+                      className={`max-w-72 py-2 px-4 bg-card shadow-sm rounded-[20px] ${
                         chat.uid === user?.uid
                           ? "translate-x-6"
                           : "-translate-x-2"
@@ -193,7 +193,7 @@ export default function Page() {
                       {chat.content}
                     </div>
                     <p
-                      className={`text-xs text-zinc-500 ${
+                      className={`text-xs text-muted-foreground ${
                         chat.uid === user?.uid
                           ? "translate-x-5"
                           : " -translate-x-1.5"
@@ -203,7 +203,7 @@ export default function Page() {
                     </p>
                   </div>
                   <p
-                    className={`text-sm pt-1 text-zinc-500 ${
+                    className={`text-sm pt-1 text-muted-foreground ${
                       chat.uid === user?.uid && "translate-x-4"
                     }`}
                   >
@@ -215,7 +215,7 @@ export default function Page() {
         </div>
         <form
           onSubmit={addChat}
-          className={`bg-zinc-50 dark:bg-zinc-900 py-2 px-4 ${
+          className={`bg-card shadow py-2 px-4 ${
             user ? "flex" : "hidden"
           }  items-center gap-x-3 rounded-b-lg`}
         >
@@ -241,7 +241,7 @@ export default function Page() {
           <Input
             type="text"
             placeholder="Aa"
-            className="bg-white dark:bg-zinc-800 rounded-full focus-visible:ring-transparent focus-visible:ring-offset-0 border-none px-3"
+            className="bg-secondary rounded-full focus-visible:ring-transparent focus-visible:ring-offset-0 border-none px-3"
             value={formData}
             onChange={(e) => setFormData(e.target.value)}
             required
@@ -259,9 +259,9 @@ export default function Page() {
           </div>
         </form>
 
-        <div className="absolute left-0 top-0 bg-gradient-to-b from-white dark:from-zinc-950 to-transparent w-full h-10"></div>
+        <div className="absolute left-0 top-0 bg-gradient-to-b from-background to-transparent w-full h-10"></div>
         <div
-          className={`absolute left-0 bottom-0 bg-gradient-to-t from-white dark:from-zinc-950 to-transparent w-full h-10 ${
+          className={`absolute left-0 bottom-0 bg-gradient-to-t from-background to-transparent w-full h-10 ${
             user ? "hidden" : "block"
           } `}
         ></div>

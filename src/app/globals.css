@@ -184,6 +184,48 @@
   --active: oklch(0.72 0.15 220); /* sky-500 */
 }
 
+.red {
+  --background: oklch(0.22 0.05 350);
+  --foreground: oklch(0.98 0 0);
+
+  --card: oklch(0.28 0.06 350);
+  --card-foreground: oklch(0.98 0 0);
+
+  --active: oklch(0.64 0.22 25);
+  --active-foreground: oklch(0.58 0.21 25);
+
+  --danger: oklch(0.64 0.22 25);
+
+  --popover: oklch(0.28 0.06 350);
+  --popover-foreground: oklch(0.98 0 0);
+
+  --primary: oklch(0.64 0.22 25);
+  --primary-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.38 0.10 350);
+  --secondary-foreground: oklch(0.98 0 0);
+
+  --muted: oklch(0.38 0.10 350);
+  --muted-foreground: oklch(0.75 0.08 350);
+
+  --accent: oklch(0.48 0.14 350);
+  --accent-foreground: oklch(0.98 0 0);
+
+  --destructive: oklch(0.58 0.21 25);
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: oklch(0.35 0.08 350);
+  --input: oklch(0.35 0.08 350);
+
+  --ring: oklch(0.60 0.15 350);
+
+  --chart-1: oklch(0.64 0.22 25);
+  --chart-2: oklch(0.78 0.14 340);
+  --chart-3: oklch(0.70 0.20 40);
+  --chart-4: oklch(0.76 0.13 320);
+  --chart-5: oklch(0.40 0.10 25);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

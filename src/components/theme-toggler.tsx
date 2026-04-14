@@ -21,7 +21,7 @@ const THEMES = [
   { name: "green", color: "from-green-950 to-green-600" },
   { name: "purple", color: "from-purple-950 to-purple-500" },
   { name: "pink", color: "from-pink-950 to-pink-500" },
-  { name: "brown", color: "from-amber-900 to-amber-500" }, // ✅ fixed
+  { name: "brown", color: "from-amber-900 to-amber-700" }, // ✅ fixed
 ];
 
 export function ThemeToggler() {
